@@ -1,0 +1,64 @@
+PROCEDURE GITHUB POUR CREER L'APPLICATION MAC SANS AVOIR DE MAC
+================================================================
+
+1. Sur GitHub, ouvrir ton depot :
+
+https://github.com/SOURNAC/CarnetVolTelepilotePRO_MAC
+
+2. Cliquer sur :
+
+uploading an existing file
+
+ou :
+
+Add file > Upload files
+
+3. Depuis Windows, ouvrir ce dossier :
+
+C:\Users\SNC-DRONES\Dropbox\TRISTAN\ESSENTIEL_CARNET_VOL\01_SOURCE
+
+4. Envoyer tout le contenu de 01_SOURCE sur GitHub.
+
+Il faut envoyer notamment :
+
+- carnet_vol_pro_app.py
+- CarnetVolTelepilotePRO.spec
+- CarnetVolTelepilotePRO_mac.spec
+- requirements-mac.txt
+- build_mac.sh
+- assets
+- .github
+- .gitignore
+
+Important :
+Le dossier .github est indispensable pour afficher l'action de construction Mac.
+
+5. Cliquer sur :
+
+Commit changes
+
+6. Aller dans l'onglet :
+
+Actions
+
+7. Cliquer sur :
+
+Build Mac App
+
+8. Cliquer sur :
+
+Run workflow
+
+9. Attendre la fin.
+
+10. Quand le build est termine, ouvrir le build, puis telecharger l'artifact :
+
+CarnetVolTelepilotePRO_APP_MAC
+
+11. Dezipper le fichier telecharge.
+
+Resultat :
+
+CarnetVolTelepilotePRO.app
+
+Cette application est la version macOS.
